@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "f1234b234dd0e1e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "64d458f20b18296e",
+        "type": "leaf",
+        "dimension": 85.32675709001232,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/accessibility.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "7825b11e9e30f8a5"
+      },
+      {
+        "id": "9bcbd7992a5db562",
+        "type": "leaf",
+        "dimension": 14.67324290998767,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "docs/accessibility.md"
+          }
+        },
+        "group": "7825b11e9e30f8a5"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72956709d46a7cc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce488e56456bcb82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d344f57ce2894bd1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ef773ca09de9988",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#index",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9a297c5c4d684998",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268
+  },
+  "right": {
+    "id": "dad0c1c5a884efc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "15cbb51fc9ff26f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61ae44e989be85e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/accessibility.md"
+              }
+            }
+          },
+          {
+            "id": "899ae9a7c3336b65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/accessibility.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c99c3b7946033439",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/accessibility.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f675f6dc0600f806",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dbd0df1a3a409b3a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e493a770a8abd59",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259,
+    "collapsed": true
+  },
+  "active": "64d458f20b18296e",
+  "lastOpenFiles": [
+    "docs/getting-started.md",
+    "docs/api-reference/create-next-app.md",
+    "docs/migrating/from-create-react-app.md",
+    "docs/routing/dynamic-routes.md",
+    "docs/faq.md",
+    "docs/going-to-production.md",
+    "02 前端/Next.js/test.md",
+    "docs/upgrading.md",
+    "02 前端/React/搭建环境.md",
+    "03 后端/node/nest.js/搭建环境.md"
+  ]
+}
