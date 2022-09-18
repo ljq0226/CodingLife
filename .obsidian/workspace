@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/accessibility.md",
-            "mode": "preview",
+            "file": "README.md",
+            "mode": "source",
             "source": false
           }
         },
@@ -24,7 +24,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/accessibility.md"
+            "file": "README.md"
           }
         },
         "group": "7825b11e9e30f8a5"
@@ -91,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/accessibility.md"
+                "file": "README.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/accessibility.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/accessibility.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,15 +160,15 @@
   },
   "active": "64d458f20b18296e",
   "lastOpenFiles": [
+    "11 Inbox/README.md",
+    "11 Inbox/Untitled.md",
+    "docs/accessibility.md",
     "docs/getting-started.md",
     "docs/api-reference/create-next-app.md",
     "docs/migrating/from-create-react-app.md",
     "docs/routing/dynamic-routes.md",
     "docs/faq.md",
     "docs/going-to-production.md",
-    "02 前端/Next.js/test.md",
-    "docs/upgrading.md",
-    "02 前端/React/搭建环境.md",
-    "03 后端/node/nest.js/搭建环境.md"
+    "02 前端/Next.js/test.md"
   ]
 }
