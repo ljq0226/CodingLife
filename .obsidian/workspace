@@ -6,11 +6,11 @@
       {
         "id": "64d458f20b18296e",
         "type": "leaf",
-        "dimension": 85.32675709001232,
+        "dimension": 85.32675709001234,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
             "mode": "source",
             "source": false
           }
@@ -20,11 +20,11 @@
       {
         "id": "9bcbd7992a5db562",
         "type": "leaf",
-        "dimension": 14.67324290998767,
+        "dimension": 14.673242909987671,
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
           }
         },
         "group": "7825b11e9e30f8a5"
@@ -91,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,15 +160,15 @@
   },
   "active": "64d458f20b18296e",
   "lastOpenFiles": [
+    "01 CS/计算机组成原理/第一章 计算机系统概述.md",
+    "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
+    "01 CS/计算机组成原理/00 计算机组成原理.md",
+    "README.md",
     "11 Inbox/README.md",
     "11 Inbox/Untitled.md",
     "docs/accessibility.md",
     "docs/getting-started.md",
     "docs/api-reference/create-next-app.md",
-    "docs/migrating/from-create-react-app.md",
-    "docs/routing/dynamic-routes.md",
-    "docs/faq.md",
-    "docs/going-to-production.md",
-    "02 前端/Next.js/test.md"
+    "docs/migrating/from-create-react-app.md"
   ]
 }
