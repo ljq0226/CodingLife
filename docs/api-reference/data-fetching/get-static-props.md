@@ -9,11 +9,11 @@ description: API reference for `getStaticProps`. Learn how to use `getStaticProp
 
 | Version   | Changes                                                                                                                                                 |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `v12.2.0` | [On-Demand Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md#on-demand-revalidation) is stable.    |
-| `v12.1.0` | [On-Demand Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md#on-demand-revalidation) added (beta). |
+| `v12.2.0` | [On-Demand Incremental Static Regeneration](incremental-static-regeneration.md#on-demand-revalidation) is stable.    |
+| `v12.1.0` | [On-Demand Incremental Static Regeneration](incremental-static-regeneration.md#on-demand-revalidation) added (beta). |
 | `v10.0.0` | `locale`, `locales`, `defaultLocale`, and `notFound` options added.                                                                                     |
 | `v10.0.0` | `fallback: 'blocking'` return option added.                                                                                                             |
-| `v9.5.0`  | Stable [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md)                                         |
+| `v9.5.0`  | Stable [Incremental Static Regeneration](incremental-static-regeneration.md)                                         |
 | `v9.3.0`  | `getStaticProps` introduced.                                                                                                                            |
 
 </details>
@@ -81,7 +81,7 @@ export async function getStaticProps() {
 }
 ```
 
-Learn more about [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md).
+Learn more about [Incremental Static Regeneration](incremental-static-regeneration.md).
 
 The cache status of a page leveraging ISR can be determined by reading the value of the `x-nextjs-cache` response header. The possible values are the following:
 

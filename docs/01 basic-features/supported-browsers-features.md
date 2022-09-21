@@ -42,7 +42,7 @@ In addition to `fetch()` on the client-side, Next.js polyfills `fetch()` in the 
 
 ### TypeScript Features
 
-Next.js has built-in TypeScript support. [Learn more here](/docs/basic-features/typescript.md).
+Next.js has built-in TypeScript support. [Learn more here](docs/01%20basic-features/typescript.md).
 
 ### Customizing Babel Config (Advanced)
 

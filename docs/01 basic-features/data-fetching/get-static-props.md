@@ -33,9 +33,9 @@ You should use `getStaticProps` if:
 - `getStaticProps` runs in the background when using [`fallback: true`](/docs/api-reference/data-fetching/get-static-paths#fallback-true)
 - `getStaticProps` is called before initial render when using [`fallback: blocking`](/docs/api-reference/data-fetching/get-static-paths#fallback-blocking)
 - `getStaticProps` runs in the background when using `revalidate`
-- `getStaticProps` runs on-demand in the background when using [`revalidate()`](/docs/basic-features/data-fetching/incremental-static-regeneration.md#on-demand-revalidation)
+- `getStaticProps` runs on-demand in the background when using [`revalidate()`](incremental-static-regeneration.md#on-demand-revalidation)
 
-When combined with [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md), `getStaticProps` will run in the background while the stale page is being revalidated, and the fresh page served to the browser.
+When combined with [Incremental Static Regeneration](incremental-static-regeneration.md), `getStaticProps` will run in the background while the stale page is being revalidated, and the fresh page served to the browser.
 
 `getStaticProps` does not have access to the incoming request (such as query parameters or HTTP headers) as it generates static HTML. If you need access to the request for your page, consider using [Middleware](/docs/middleware.md) in addition to `getStaticProps`.
 

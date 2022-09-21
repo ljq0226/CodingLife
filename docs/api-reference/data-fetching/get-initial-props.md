@@ -4,9 +4,9 @@ description: Enable Server-Side Rendering in a page and do initial data populati
 
 # getInitialProps
 
-**Recommended: [`getStaticProps`](/docs/basic-features/data-fetching/get-static-props.md) or [`getServerSideProps`](/docs/basic-features/data-fetching/get-server-side-props.md)** instead of `getInitialProps`. These data fetching methods allow you to have a granular choice between static generation and server-side rendering.
+**Recommended: [`getStaticProps`](docs/01%20basic-features/data-fetching/get-static-props.md) or [`getServerSideProps`](docs/01%20basic-features/data-fetching/get-server-side-props.md)** instead of `getInitialProps`. These data fetching methods allow you to have a granular choice between static generation and server-side rendering.
 
-`getInitialProps` enables [server-side rendering](/docs/basic-features/pages.md#server-side-rendering) in a page and allows you to do **initial data population**, it means sending the [page](/docs/basic-features/pages.md) with the data already populated from the server. This is especially useful for [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
+`getInitialProps` enables [server-side rendering](pages.md#server-side-rendering) in a page and allows you to do **initial data population**, it means sending the [page](pages.md) with the data already populated from the server. This is especially useful for [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization).
 
 `getInitialProps` will disable [Automatic Static Optimization](/docs/advanced-features/automatic-static-optimization.md).
 

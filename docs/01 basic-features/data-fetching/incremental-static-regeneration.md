@@ -111,7 +111,7 @@ First, create a secret token only known by your Next.js app. This secret will be
 https://<your-site.com>/api/revalidate?secret=<token>
 ```
 
-Next, add the secret as an [Environment Variable](/docs/basic-features/environment-variables.md) to your application. Finally, create the revalidation API Route:
+Next, add the secret as an [Environment Variable](docs/01%20basic-features/environment-variables.md) to your application. Finally, create the revalidation API Route:
 
 ```jsx
 // pages/api/revalidate.js

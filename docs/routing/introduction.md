@@ -4,7 +4,7 @@ description: Next.js has a built-in, opinionated, and file-system based Router. 
 
 # Routing
 
-Next.js has a file-system based router built on the [concept of pages](/docs/basic-features/pages.md).
+Next.js has a file-system based router built on the [concept of pages](pages.md).
 
 When a file is added to the `pages` directory, it's automatically available as a route.
 
@@ -74,7 +74,7 @@ The example above uses multiple links. Each one maps a path (`href`) to a known 
 - `/about` → `pages/about.js`
 - `/blog/hello-world` → `pages/blog/[slug].js`
 
-Any `<Link />` in the viewport (initially or through scroll) will be prefetched by default (including the corresponding data) for pages using [Static Generation](/docs/basic-features/data-fetching/get-static-props.md). The corresponding data for [server-rendered](/docs/basic-features/data-fetching/get-server-side-props.md) routes is _not_ prefetched.
+Any `<Link />` in the viewport (initially or through scroll) will be prefetched by default (including the corresponding data) for pages using [Static Generation](docs/01%20basic-features/data-fetching/get-static-props.md). The corresponding data for [server-rendered](docs/01%20basic-features/data-fetching/get-server-side-props.md) routes is _not_ prefetched.
 
 ### Linking to dynamic paths
 

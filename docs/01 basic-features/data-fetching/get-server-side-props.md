@@ -37,7 +37,7 @@ The [`getServerSideProps` API reference](/docs/api-reference/data-fetching/get-s
 
 You should use `getServerSideProps` only if you need to render a page whose data must be fetched at request time. This could be due to the nature of the data or properties of the request (such as `authorization` headers or geo location). Pages using `getServerSideProps` will be server side rendered at request time and only be cached if [cache-control headers are configured](/docs/going-to-production#caching).
 
-If you do not need to render the data during the request, then you should consider fetching data on the [client side](#fetching-data-on-the-client-side) or [`getStaticProps`](/docs/basic-features/data-fetching/get-static-props).
+If you do not need to render the data during the request, then you should consider fetching data on the [client side](#fetching-data-on-the-client-side) or [`getStaticProps`](docs/01%20basic-features/data-fetching/get-static-props.md).
 
 ### getServerSideProps or API Routes
 
@@ -47,7 +47,7 @@ Take the following example. An API route is used to fetch some data from a CMS. 
 
 ## Fetching data on the client side
 
-If your page contains frequently updating data, and you don’t need to pre-render the data, you can fetch the data on the [client side](/docs/basic-features/data-fetching/client-side.md). An example of this is user-specific data:
+If your page contains frequently updating data, and you don’t need to pre-render the data, you can fetch the data on the [client side](client-side.md). An example of this is user-specific data:
 
 - First, immediately show the page without data. Parts of the page can be pre-rendered using Static Generation. You can show loading states for missing data
 - Then, fetch the data on the client side and display it when ready

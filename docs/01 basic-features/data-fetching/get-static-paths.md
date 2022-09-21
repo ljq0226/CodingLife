@@ -57,7 +57,7 @@ You should use `getStaticPaths` if you’re statically pre-rendering pages that 
 ## Where can I use getStaticPaths
 
 - `getStaticPaths` **must** be used with `getStaticProps`
-- You **cannot** use `getStaticPaths` with [`getServerSideProps`](/docs/basic-features/data-fetching/get-server-side-props.md)
+- You **cannot** use `getStaticPaths` with [`getServerSideProps`](docs/01%20basic-features/data-fetching/get-server-side-props.md)
 - You can export `getStaticPaths` from a [Dynamic Route](/docs/routing/dynamic-routes.md) that also uses `getStaticProps`
 - You **cannot** export `getStaticPaths` from non-page file (e.g. your `components` folder)
 - You must export `getStaticPaths` as a standalone function, and not a property of the page component

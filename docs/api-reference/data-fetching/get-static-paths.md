@@ -9,9 +9,9 @@ description: API reference for `getStaticPaths`. Learn how to fetch data and gen
 
 | Version   | Changes                                                                                                                                                 |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `v12.2.0` | [On-Demand Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md#on-demand-revalidation) is stable.    |
-| `v12.1.0` | [On-Demand Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md#on-demand-revalidation) added (beta). |
-| `v9.5.0`  | Stable [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md)                                         |
+| `v12.2.0` | [On-Demand Incremental Static Regeneration](incremental-static-regeneration.md#on-demand-revalidation) is stable.    |
+| `v12.1.0` | [On-Demand Incremental Static Regeneration](incremental-static-regeneration.md#on-demand-revalidation) added (beta). |
+| `v9.5.0`  | Stable [Incremental Static Regeneration](incremental-static-regeneration.md)                                         |
 | `v9.3.0`  | `getStaticPaths` introduced.                                                                                                                            |
 
 </details>
@@ -138,7 +138,7 @@ Shortly after, `getStaticProps` finishes and the page will be rendered with the 
 
 This ensures that users always have a fast experience while preserving fast builds and the benefits of Static Generation.
 
-`fallback: true` will not _update_ generated pages, for that take a look at [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md).
+`fallback: true` will not _update_ generated pages, for that take a look at [Incremental Static Regeneration](incremental-static-regeneration.md).
 
 ### `fallback: 'blocking'`
 
@@ -151,7 +151,7 @@ If `fallback` is `'blocking'`, new paths not returned by `getStaticPaths` will w
 - When complete, the browser receives the `HTML` for the generated path. From the user’s perspective, it will transition from "the browser is requesting the page" to "the full page is loaded". There is no flash of loading/fallback state.
 - At the same time, Next.js adds this path to the list of pre-rendered pages. Subsequent requests to the same path will serve the generated page, like other pages pre-rendered at build time.
 
-`fallback: 'blocking'` will not _update_ generated pages by default. To update generated pages, use [Incremental Static Regeneration](/docs/basic-features/data-fetching/incremental-static-regeneration.md) in conjunction with `fallback: 'blocking'`.
+`fallback: 'blocking'` will not _update_ generated pages by default. To update generated pages, use [Incremental Static Regeneration](incremental-static-regeneration.md) in conjunction with `fallback: 'blocking'`.
 
 > **Note:** `fallback: 'blocking'` is not supported when using [`next export`](/docs/advanced-features/static-html-export.md).
 

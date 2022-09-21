@@ -94,7 +94,7 @@ The order Next.js routes are checked is:
 1. [headers](/docs/api-reference/next.config.js/headers) are checked/applied
 2. [redirects](/docs/api-reference/next.config.js/redirects) are checked/applied
 3. `beforeFiles` rewrites are checked/applied
-4. static files from the [public directory](/docs/basic-features/static-file-serving), `_next/static` files, and non-dynamic pages are checked/served
+4. static files from the [public directory](static-file-serving.md), `_next/static` files, and non-dynamic pages are checked/served
 5. `afterFiles` rewrites are checked/applied, if one of these rewrites is matched we check dynamic routes/static files after each match
 6. `fallback` rewrites are checked/applied, these are applied before rendering the 404 page and after dynamic routes/all static assets have been checked. If you use [fallback: true/'blocking'](/docs/api-reference/data-fetching/get-static-paths#fallback-true) in `getStaticPaths`, the fallback `rewrites` defined in your `next.config.js` will _not_ be run.
 
@@ -148,7 +148,7 @@ module.exports = {
 }
 ```
 
-Note: for static pages from the [Automatic Static Optimization](/docs/advanced-features/automatic-static-optimization.md) or [prerendering](/docs/basic-features/data-fetching/get-static-props.md) params from rewrites will be parsed on the client after hydration and provided in the query.
+Note: for static pages from the [Automatic Static Optimization](/docs/advanced-features/automatic-static-optimization.md) or [prerendering](docs/01%20basic-features/data-fetching/get-static-props.md) params from rewrites will be parsed on the client after hydration and provided in the query.
 
 ## Path Matching
 

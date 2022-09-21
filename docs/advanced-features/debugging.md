@@ -68,7 +68,7 @@ To debug server-side Next.js code with Chrome DevTools, you need to pass the [`-
 NODE_OPTIONS='--inspect' next dev
 ```
 
-If you're using `npm run dev` or `yarn dev` (see [Getting Started](/docs/getting-started)) then you should update the `dev` script on your `package.json`:
+If you're using `npm run dev` or `yarn dev` (see [Getting Started](00%20getting-started.md)) then you should update the `dev` script on your `package.json`:
 
 ```json
 "dev": "NODE_OPTIONS='--inspect' next dev"

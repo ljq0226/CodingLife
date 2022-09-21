@@ -82,7 +82,7 @@ Create two directories `pages` and `public` at the root of your application:
 - `pages` - Associated with a route based on their file name. For example `pages/about.js` is mapped to `/about`
 - `public` - Stores static assets such as images, fonts, etc. Files inside `public` directory can then be referenced by your code starting from the base URL (`/`).
 
-Next.js is built around the concept of [pages](/docs/basic-features/pages.md). A page is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. You can even add [dynamic route](/docs/routing/dynamic-routes) parameters with the filename.
+Next.js is built around the concept of [pages](pages.md). A page is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. You can even add [dynamic route](/docs/routing/dynamic-routes) parameters with the filename.
 
 Inside the `pages` directory add the `index.js` file to get started. This is the page that is rendered when the user visits the root of your application.
 
@@ -106,8 +106,8 @@ So far, we get:
 
 - Automatic compilation and [bundling](/docs/advanced-features/compiler.md)
 - [React Fast Refresh](https://nextjs.org/blog/next-9-4#fast-refresh)
-- [Static generation and server-side rendering](/docs/basic-features/data-fetching/overview.md) of [`pages/`](/docs/basic-features/pages.md)
-- [Static file serving](/docs/basic-features/static-file-serving.md) through `public/` which is mapped to the base URL (`/`)
+- [Static generation and server-side rendering](docs/01%20basic-features/data-fetching/overview.md) of [`pages/`](pages.md)
+- [Static file serving](static-file-serving.md) through `public/` which is mapped to the base URL (`/`)
 
 In addition, any Next.js application is ready for production from the start. Read more in our [Deployment documentation](/docs/deployment.md).
 

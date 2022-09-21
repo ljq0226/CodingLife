@@ -34,7 +34,7 @@ yarn lint
 
 One of the following three options can be selected:
 
-- **Strict**: Includes Next.js' base ESLint configuration along with a stricter [Core Web Vitals rule-set](/docs/basic-features/eslint.md#core-web-vitals). This is the recommended configuration for developers setting up ESLint for the first time.
+- **Strict**: Includes Next.js' base ESLint configuration along with a stricter [Core Web Vitals rule-set](eslint.md#core-web-vitals). This is the recommended configuration for developers setting up ESLint for the first time.
 
   ```json
   {
@@ -64,7 +64,7 @@ We recommend using an appropriate [integration](https://eslint.org/docs/user-gui
 
 The default configuration (`eslint-config-next`) includes everything you need to have an optimal out-of-the-box linting experience in Next.js. If you do not have ESLint already configured in your application, we recommend using `next lint` to set up ESLint along with this configuration.
 
-> If you would like to use `eslint-config-next` along with other ESLint configurations, refer to the [Additional Configurations](/docs/basic-features/eslint.md#additional-configurations) section to learn how to do so without causing any conflicts.
+> If you would like to use `eslint-config-next` along with other ESLint configurations, refer to the [Additional Configurations](eslint.md#additional-configurations) section to learn how to do so without causing any conflicts.
 
 Recommended rule-sets from the following ESLint plugins are all used within `eslint-config-next`:
 
@@ -103,7 +103,7 @@ Next.js provides an ESLint plugin, [`eslint-plugin-next`](https://www.npmjs.com/
 | ✔️  | @next/next/no-typos                                                                                                         | Prevent common typos in [Next.js's data fetching functions](/docs/basic-features/data-fetching.md) |
 | ✔️  | [@next/next/no-unwanted-polyfillio](/docs/messages/no-unwanted-polyfillio.md)                                               | Prevent duplicate polyfills from Polyfill.io.                                                      |
 
-If you already have ESLint configured in your application, we recommend extending from this plugin directly instead of including `eslint-config-next` unless a few conditions are met. Refer to the [Recommended Plugin Ruleset](/docs/basic-features/eslint.md#recommended-plugin-ruleset) to learn more.
+If you already have ESLint configured in your application, we recommend extending from this plugin directly instead of including `eslint-config-next` unless a few conditions are met. Refer to the [Recommended Plugin Ruleset](eslint.md#recommended-plugin-ruleset) to learn more.
 
 ### Custom Settings
 

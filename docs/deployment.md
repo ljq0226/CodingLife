@@ -24,7 +24,7 @@ This output is generated inside the `.next` folder:
 - `.next/server/chunks` – Shared JavaScript chunks used in multiple places throughout your application
 - `.next/cache` – Output for the build cache and cached images, responses, and pages from the Next.js server. Using a cache helps decrease build times and improve performance of loading images
 
-All JavaScript code inside `.next` has been **compiled** and browser bundles have been **minified** to help achieve the best performance and support [all modern browsers](/docs/basic-features/supported-browsers-features.md).
+All JavaScript code inside `.next` has been **compiled** and browser bundles have been **minified** to help achieve the best performance and support [all modern browsers](supported-browsers-features.md).
 
 ## Managed Next.js with Vercel
 
@@ -34,7 +34,7 @@ When deploying to Vercel, the platform [automatically detects Next.js](https://v
 
 - Persisting cached assets across deployments if unchanged
 - [Immutable deployments](https://vercel.com/features/previews?utm_source=next-site&utm_medium=docs&utm_campaign=next-website) with a unique URL for every commit
-- [Pages](/docs/basic-features/pages.md) are automatically statically optimized, if possible
+- [Pages](pages.md) are automatically statically optimized, if possible
 - Assets (JavaScript, CSS, images, fonts) are compressed and served from a [Global Edge Network](https://vercel.com/features/infrastructure?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 - [API Routes](/docs/api-routes/introduction.md) are automatically optimized as isolated [Serverless Functions](https://vercel.com/features/infrastructure?utm_source=next-site&utm_medium=docs&utm_campaign=next-website) that can scale infinitely
 - [Middleware](/docs/middleware.md) are automatically optimized as [Edge Functions](https://vercel.com/features/edge-functions?utm_source=next-site&utm_medium=docs&utm_campaign=next-website) that have zero cold starts and boot instantly
@@ -46,7 +46,7 @@ In addition, Vercel provides features like:
 - Automatic CI/CD (through GitHub, GitLab, Bitbucket, etc.)
 - Support for [Environment Variables](https://vercel.com/docs/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 - Support for [Custom Domains](https://vercel.com/docs/custom-domains?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
-- Support for [Image Optimization](/docs/basic-features/image-optimization.md) with `next/image`
+- Support for [Image Optimization](image-optimization.md) with `next/image`
 - Instant global deployments via `git push`
 
 [Deploy a Next.js application to Vercel](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world&utm_source=next-site&utm_medium=docs&utm_campaign=next-website) for free to try it out.
@@ -73,7 +73,7 @@ First, ensure your `package.json` has the `"build"` and `"start"` scripts:
 
 Then, run `next build` to build your application. Finally, run `next start` to start the Node.js server. This server supports all features of Next.js.
 
-> If you are using [`next/image`](/docs/basic-features/image-optimization.md), consider adding `sharp` for more performant [Image Optimization](/docs/basic-features/image-optimization.md) in your production environment by running `npm install sharp` in your project directory. On Linux platforms, `sharp` may require [additional configuration](https://sharp.pixelplumbing.com/install#linux-memory-allocator) to prevent excessive memory usage.
+> If you are using [`next/image`](image-optimization.md), consider adding `sharp` for more performant [Image Optimization](image-optimization.md) in your production environment by running `npm install sharp` in your project directory. On Linux platforms, `sharp` may require [additional configuration](https://sharp.pixelplumbing.com/install#linux-memory-allocator) to prevent excessive memory usage.
 
 ### Docker Image
 

@@ -35,8 +35,8 @@ Data fetching within `Suspense` boundaries is currently only supported on the cl
 The following solutions are compatible with Next.js streaming:
 
 - Inline Styles
-- [Global Stylesheets](/docs/basic-features/built-in-css-support.md#adding-a-global-stylesheet)
-- [CSS Modules](/docs/basic-features/built-in-css-support.md#adding-component-level-css)
-- [styled-jsx](/docs/basic-features/built-in-css-support.md#css-in-js)
+- [Global Stylesheets](built-in-css-support.md#adding-a-global-stylesheet)
+- [CSS Modules](built-in-css-support.md#adding-component-level-css)
+- [styled-jsx](built-in-css-support.md#css-in-js)
 
 CSS-in-JS solutions like `styled-components` and `emotion` are currently not compatible with streaming. For library authors, check out the [upgrade guide](https://github.com/reactwg/react-18/discussions/110) to learn more.

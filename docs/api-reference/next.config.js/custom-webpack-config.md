@@ -8,10 +8,10 @@ description: Extend the default webpack config added by Next.js.
 
 Before continuing to add custom webpack configuration to your application make sure Next.js doesn't already support your use-case:
 
-- [CSS imports](/docs/basic-features/built-in-css-support.md#adding-a-global-stylesheet)
-- [CSS modules](/docs/basic-features/built-in-css-support.md#adding-component-level-css)
-- [Sass/SCSS imports](/docs/basic-features/built-in-css-support.md#sass-support)
-- [Sass/SCSS modules](/docs/basic-features/built-in-css-support.md#sass-support)
+- [CSS imports](built-in-css-support.md#adding-a-global-stylesheet)
+- [CSS modules](built-in-css-support.md#adding-component-level-css)
+- [Sass/SCSS imports](built-in-css-support.md#sass-support)
+- [Sass/SCSS modules](built-in-css-support.md#sass-support)
 - [preact](https://github.com/vercel/next.js/tree/canary/examples/using-preact)
 - [Customizing babel configuration](/docs/advanced-features/customizing-babel-config.md)
 

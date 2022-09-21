@@ -40,9 +40,9 @@ The exact configuration for uploading your files to a given CDN will depend on y
 
 While `assetPrefix` covers requests to `_next/static`, it does not influence the following paths:
 
-- Files in the [public](/docs/basic-features/static-file-serving.md) folder; if you want to serve those assets over a CDN, you'll have to introduce the prefix yourself
+- Files in the [public](static-file-serving.md) folder; if you want to serve those assets over a CDN, you'll have to introduce the prefix yourself
 - `/_next/data/` requests for `getServerSideProps` pages. These requests will always be made against the main domain since they're not static.
-- `/_next/data/` requests for `getStaticProps` pages. These requests will always be made against the main domain to support [Incremental Static Generation](/docs/basic-features/data-fetching/incremental-static-regeneration.md), even if you're not using it (for consistency).
+- `/_next/data/` requests for `getStaticProps` pages. These requests will always be made against the main domain to support [Incremental Static Generation](incremental-static-regeneration.md), even if you're not using it (for consistency).
 
 ## Related
 

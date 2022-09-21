@@ -185,11 +185,11 @@ The image component has several different [layout modes](/docs/api-reference/nex
 
 For most layout modes, the Image component will have a DOM structure of one `<img>` tag wrapped by exactly one `<span>`. For some modes, it may also have a sibling `<span>` for spacing. These additional `<span>` elements are critical to allow the component to prevent layout shifts.
 
-The recommended way to style the inner `<img>` is to set the `className` prop on the Image component to the value of an imported [CSS Module](/docs/basic-features/built-in-css-support.md#adding-component-level-css). The value of `className` will be automatically applied to the underlying `<img>` element.
+The recommended way to style the inner `<img>` is to set the `className` prop on the Image component to the value of an imported [CSS Module](built-in-css-support.md#adding-component-level-css). The value of `className` will be automatically applied to the underlying `<img>` element.
 
-Alternatively, you can import a [global stylesheet](/docs/basic-features/built-in-css-support#adding-a-global-stylesheet) and manually set the `className` prop to the same name used in the global stylesheet.
+Alternatively, you can import a [global stylesheet](built-in-css-support.md#adding-a-global-stylesheet) and manually set the `className` prop to the same name used in the global stylesheet.
 
-You cannot use [styled-jsx](/docs/basic-features/built-in-css-support.md#css-in-js) because it's scoped to the current component.
+You cannot use [styled-jsx](built-in-css-support.md#css-in-js) because it's scoped to the current component.
 
 **When using `layout='fill'`, the parent element must have `position: relative`**
 

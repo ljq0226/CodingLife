@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00 索引/随便.md",
+            "file": "05 Project/portfolio.md",
             "mode": "source",
             "source": false
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "00 索引/随便.md"
+            "file": "05 Project/portfolio.md"
           }
         },
         "group": "7825b11e9e30f8a5"
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268
+    "width": 268,
+    "collapsed": true
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -91,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 索引/随便.md"
+                "file": "05 Project/portfolio.md"
               }
             }
           },
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 索引/随便.md",
+                "file": "05 Project/portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 索引/随便.md",
+                "file": "05 Project/portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,15 +161,15 @@
   },
   "active": "64d458f20b18296e",
   "lastOpenFiles": [
+    "docs/导航.md",
+    "docs/01 basic-features/pages.md",
+    "docs/01 basic-features/data-fetching/overview.md",
+    "docs/00 getting-started.md",
+    "docs/api-reference/create-next-app.md",
+    "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
+    "01 CS/计算机组成原理/00 计算机组成原理.md",
+    "00 索引/随便.md",
     "00 索引/待看博客.md",
-    "01 CS/计算机网络/Others/03 数据链路层.md",
-    "01 CS/计算机网络/Others/02 物理层.md",
-    "01 CS/计算机网络/Others/01 计算机网络概述.md",
-    "01 CS/计算机网络/Others/Untitled 1.md",
-    "01 CS/计算机网络/计算机网络.md",
-    "01 CS/计算机组成原理/第一章 计算机系统概述.md",
-    "01 CS/计算机操作系统/00 操作系统.md",
-    "02 前端/其它/vite+React+Ts 搭建环境.md",
-    "02 前端/工程化/Webpack.md"
+    "01 CS/计算机网络/Others/03 数据链路层.md"
   ]
 }

@@ -150,7 +150,7 @@ If you want to cause a `GET` response to a `POST` request, use `303`.
 
 ### How do I access Environment Variables?
 
-`process.env` can be used to access [Environment Variables](/docs/basic-features/environment-variables.md) from Edge Middleware. They are evaluated during `next build`:
+`process.env` can be used to access [Environment Variables](docs/01%20basic-features/environment-variables.md) from Edge Middleware. They are evaluated during `next build`:
 
 | Works                                                        | Does **not** work                          |
 | ------------------------------------------------------------ | ------------------------------------------ |

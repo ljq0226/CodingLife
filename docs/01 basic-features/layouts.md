@@ -13,7 +13,7 @@ description: Learn how to share components and state between Next.js pages with 
 
 > **Note:** We are introducing improved layouts support in Next.js. Read the [Layouts RFC](https://nextjs.org/blog/layouts-rfc) for more details and to provide feedback.
 
-The React model allows us to deconstruct a [page](/docs/basic-features/pages.md) into a series of components. Many of these components are often reused between pages. For example, you might have the same navigation bar and footer on every page.
+The React model allows us to deconstruct a [page](pages.md) into a series of components. Many of these components are often reused between pages. For example, you might have the same navigation bar and footer on every page.
 
 ```jsx
 // components/layout.js
@@ -146,7 +146,7 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
 ### Data Fetching
 
-Inside your layout, you can fetch data on the client-side using `useEffect` or a library like [SWR](https://swr.vercel.app/). Because this file is not a [Page](/docs/basic-features/pages.md), you cannot use `getStaticProps` or `getServerSideProps` currently.
+Inside your layout, you can fetch data on the client-side using `useEffect` or a library like [SWR](https://swr.vercel.app/). Because this file is not a [Page](pages.md), you cannot use `getStaticProps` or `getServerSideProps` currently.
 
 ```jsx
 // components/layout.js

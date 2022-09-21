@@ -64,7 +64,7 @@ export default function App() {
 }
 ```
 
-With Next.js, you can express the same application structure in the file system. When a file is added to the [`pages`](/docs/basic-features/pages.md) directory it's automatically available as a route.
+With Next.js, you can express the same application structure in the file system. When a file is added to the [`pages`](pages.md) directory it's automatically available as a route.
 
 - `pages/about.js` → `/about`
 - `pages/blog.js` → `/blog`
@@ -130,7 +130,7 @@ export default function Post() {
 
 ## Server Rendering
 
-Next.js has built-in support for [Server-side Rendering](/docs/basic-features/pages#server-side-rendering.md). This means you can remove any instances of `StaticRouter` in your code.
+Next.js has built-in support for [Server-side Rendering](pages.md#server-side-rendering.md). This means you can remove any instances of `StaticRouter` in your code.
 
 ## Code Splitting
 
@@ -139,7 +139,7 @@ Next.js has built-in support for [Code Splitting](https://reactrouter.com/web/gu
 - `@loadable/server`, `@loadable/babel-plugin`, and `@loadable/webpack-plugin`
 - Modifications to your `.babelrc` for `@loadable/babel-plugin`
 
-Each file inside your `pages/` directory will be code split into its own JavaScript bundle during the build process. Next.js [also supports](/docs/basic-features/supported-browsers-features.md#javascript-language-features) ES2020 dynamic `import()` for JavaScript. With it you can import JavaScript modules dynamically and work with them. They also work with SSR.
+Each file inside your `pages/` directory will be code split into its own JavaScript bundle during the build process. Next.js [also supports](supported-browsers-features.md#javascript-language-features) ES2020 dynamic `import()` for JavaScript. With it you can import JavaScript modules dynamically and work with them. They also work with SSR.
 
 For more information, read about [Dynamic Imports](https://nextjs.org/docs/advanced-features/dynamic-import).
 

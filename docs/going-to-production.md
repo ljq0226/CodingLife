@@ -17,11 +17,11 @@ Before taking your Next.js application to production, here are some recommendati
 - Configure the [404](/docs/advanced-features/custom-error-page.md#404-page) (Not Found) and [500](/docs/advanced-features/custom-error-page.md#500-page) (Error) pages.
 - Ensure you are [measuring performance](/docs/advanced-features/measuring-performance.md).
 - Run [Lighthouse](https://developers.google.com/web/tools/lighthouse) to check for performance, best practices, accessibility, and SEO. For best results, use a production build of Next.js and use incognito in your browser so results aren't affected by extensions.
-- Review [Supported Browsers and Features](/docs/basic-features/supported-browsers-features.md).
+- Review [Supported Browsers and Features](supported-browsers-features.md).
 - Improve performance using:
-  - [`next/image` and Automatic Image Optimization](/docs/basic-features/image-optimization.md)
-  - [Automatic Font Optimization](/docs/basic-features/font-optimization.md)
-  - [Script Optimization](/docs/basic-features/script.md)
+  - [`next/image` and Automatic Image Optimization](image-optimization.md)
+  - [Automatic Font Optimization](font-optimization.md)
+  - [Script Optimization](docs/01%20basic-features/script.md)
 - Improve [loading performance](#loading-performance)
 
 ## Caching
@@ -39,7 +39,7 @@ Caching improves response times and reduces the number of requests to external s
 Cache-Control: public, max-age=31536000, immutable
 ```
 
-`Cache-Control` headers set in `next.config.js` will be overwritten in production to ensure that static assets can be cached effectively. If you need to revalidate the cache of a page that has been [statically generated](/docs/basic-features/pages.md#static-generation-recommended), you can do so by setting `revalidate` in the page's [`getStaticProps`](/docs/basic-features/data-fetching/get-static-props.md) function. If you're using `next/image`, there are also [specific caching rules](/docs/basic-features/image-optimization.md#caching) for the default Image Optimization loader.
+`Cache-Control` headers set in `next.config.js` will be overwritten in production to ensure that static assets can be cached effectively. If you need to revalidate the cache of a page that has been [statically generated](pages.md#static-generation-recommended), you can do so by setting `revalidate` in the page's [`getStaticProps`](docs/01%20basic-features/data-fetching/get-static-props.md) function. If you're using `next/image`, there are also [specific caching rules](image-optimization.md#caching) for the default Image Optimization loader.
 
 **Note:** When running your application locally with `next dev`, your headers are overwritten to prevent caching locally.
 
