@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 CS/计算机操作系统/00 操作系统.md",
+            "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
             "mode": "source",
             "source": false
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "01 CS/计算机操作系统/00 操作系统.md"
+            "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md"
           }
         },
         "group": "7825b11e9e30f8a5"
@@ -75,8 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268,
-    "collapsed": true
+    "width": 268
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -92,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/计算机操作系统/00 操作系统.md"
+                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md"
               }
             }
           },
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/计算机操作系统/00 操作系统.md",
+                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/计算机操作系统/00 操作系统.md",
+                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +160,15 @@
   },
   "active": "64d458f20b18296e",
   "lastOpenFiles": [
+    "01 CS/计算机操作系统/第二章 线程与进程.md",
+    "01 CS/计算机操作系统/第一章 操作系统引论.md",
+    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
     "02 前端/CSS/Flex.md",
     "02 前端/Framer-Motion.md",
     "05 Project/portfolio.md",
     "docs/导航.md",
     "docs/01 basic-features/pages.md",
     "docs/01 basic-features/data-fetching/overview.md",
-    "docs/00 getting-started.md",
-    "docs/api-reference/create-next-app.md",
-    "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
-    "01 CS/计算机组成原理/00 计算机组成原理.md"
+    "docs/00 getting-started.md"
   ]
 }
