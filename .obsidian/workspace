@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "64d458f20b18296e",
+        "id": "6ce7b9145a85e0dc",
         "type": "leaf",
-        "dimension": 85.32675709001234,
+        "dimension": 74.40860215053765,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
             "mode": "source",
             "source": false
           }
-        },
-        "group": "7825b11e9e30f8a5"
+        }
       },
       {
         "id": "9bcbd7992a5db562",
         "type": "leaf",
-        "dimension": 14.673242909987671,
+        "dimension": 25.591397849462364,
         "state": {
           "type": "outline",
           "state": {
-            "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md"
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
           }
-        },
-        "group": "7825b11e9e30f8a5"
+        }
       }
     ],
     "direction": "vertical"
@@ -75,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268
+    "width": 232
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -91,7 +89,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md"
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
               }
             }
           },
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,17 +156,17 @@
     "width": 259,
     "collapsed": true
   },
-  "active": "64d458f20b18296e",
+  "active": "6ce7b9145a85e0dc",
   "lastOpenFiles": [
-    "01 CS/计算机操作系统/第二章 线程与进程.md",
-    "01 CS/计算机操作系统/第一章 操作系统引论.md",
-    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
-    "02 前端/CSS/Flex.md",
+    "00 索引/随便.md",
     "02 前端/Framer-Motion.md",
     "05 Project/portfolio.md",
+    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+    "01 CS/计算机操作系统/第二章 线程与进程.md",
+    "01 CS/计算机操作系统/第一章 操作系统引论.md",
+    "02 前端/CSS/Flex.md",
     "docs/导航.md",
     "docs/01 basic-features/pages.md",
-    "docs/01 basic-features/data-fetching/overview.md",
-    "docs/00 getting-started.md"
+    "docs/01 basic-features/data-fetching/overview.md"
   ]
 }
