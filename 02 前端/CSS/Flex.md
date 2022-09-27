@@ -27,7 +27,7 @@ flex布局是用于按行或按列布局元素当布局方法，其中设定有*
 
 html代码结构:
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>

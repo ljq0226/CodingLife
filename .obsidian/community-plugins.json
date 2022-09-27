@@ -14,5 +14,7 @@
   "obsidian-codemirror-options",
   "markdown-prettifier",
   "obsidian-auto-link-title",
-  "obsidian-git"
+  "obsidian-git",
+  "code-block-copy",
+  "rss-reader"
 ]
