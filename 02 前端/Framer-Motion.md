@@ -12,7 +12,7 @@
 
 ![](https://obs-pic-1309372570.cos.ap-chongqing.myqcloud.com/keyframes.gif)
 
-```ts
+```tsx
 import React from 'react'
 import { motion } from 'framer-motion'
 const KeyFrames = () => {
