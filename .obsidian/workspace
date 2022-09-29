@@ -4,28 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "6ce7b9145a85e0dc",
+        "id": "162236c808d7f6bc",
         "type": "leaf",
-        "dimension": 76.04501607717042,
+        "dimension": 82.92383292383292,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-09-15.md",
+            "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "a56de364b8c757f8"
       },
       {
-        "id": "9bcbd7992a5db562",
+        "id": "af104f68f7eca211",
         "type": "leaf",
-        "dimension": 23.95498392282958,
+        "dimension": 17.076167076167074,
         "state": {
           "type": "outline",
           "state": {
-            "file": "2022-09-15.md"
+            "file": "01 CS/计算机操作系统/第二章 线程与进程.md"
           }
-        }
+        },
+        "group": "a56de364b8c757f8"
       }
     ],
     "direction": "vertical"
@@ -89,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-09-15.md"
+                "file": "01 CS/计算机操作系统/第二章 线程与进程.md"
               }
             }
           },
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-09-15.md",
+                "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-09-15.md",
+                "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,17 +166,17 @@
     "width": 259,
     "collapsed": true
   },
-  "active": "6ce7b9145a85e0dc",
+  "active": "162236c808d7f6bc",
   "lastOpenFiles": [
-    "09 面试/JS基础题.md",
-    "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
-    "01 CS/计算机组成原理/第一章 计算机系统概述.md",
-    "01 CS/计算机组成原理/第三章 运算方法和运算部件.md",
-    "01 CS/计算机网络/计算机网络.md",
-    "01 CS/计算机网络/Others/03 数据链路层.md",
-    "01 CS/计算机网络/Others/02 物理层.md",
-    "01 CS/计算机网络/Others/01 计算机网络概述.md",
-    "2022-09-15.md",
-    "02 前端/Framer-Motion.md"
+    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+    "01 CS/计算机网络/a 计算机网络.md",
+    "01 CS/计算机操作系统/a 操作系统.md",
+    "01 CS/计算机网络/Others/第二章 物理层.md",
+    "01 CS/计算机网络/Others/第三章 数据链路层.md",
+    "01 CS/计算机网络/Others/第一章 计算机网络概述.md",
+    "05 Project/portfolio.md",
+    "Inbox/ＴｏＤｏ.md",
+    "07 工具/obsidian/MarkDown 语法.md",
+    "01 CS/设计模式/a. 设计模式概述.md"
   ]
 }
