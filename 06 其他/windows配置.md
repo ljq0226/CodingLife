@@ -15,52 +15,26 @@
 终端中输入 code $PROFILE
 设置 如下
 #npm alias
-
 Function ni {npm install}
-
 #yarn alias
-
 Function y {yarn}
-
 Function ya {yarn add}
-
 Function yd {yarn dev}
-
 Function ys {yarn start}
-
 Function yb {yarn build}
-
-
 #github alias
-
 Function gs {git status}
-
 Function ga {git add .}
-
 Function gr {git reset}
-
-  
-
 Function gcm {git commit -m }
-
 Function gp {git push }
-
-  
-
 #vscode alias
-
 Function c {code .}
-
 #系统alias
-
 Function dkp {cd C:\Users\ljq0226\Desktop}
-
 Function p {p:}
-
 Function l {l:}
-
 Function t {t:}
-
 Function .. {cd ..}
 ```
 

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
             "mode": "source",
             "source": false
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "01 CS/计算机操作系统/第二章 线程与进程.md"
+            "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
           }
         },
         "group": "a56de364b8c757f8"
@@ -91,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/计算机操作系统/第二章 线程与进程.md"
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/计算机操作系统/第二章 线程与进程.md",
+                "file": "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,15 +168,15 @@
   },
   "active": "162236c808d7f6bc",
   "lastOpenFiles": [
-    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
-    "01 CS/计算机网络/a 计算机网络.md",
-    "01 CS/计算机操作系统/a 操作系统.md",
-    "01 CS/计算机网络/Others/第二章 物理层.md",
-    "01 CS/计算机网络/Others/第三章 数据链路层.md",
-    "01 CS/计算机网络/Others/第一章 计算机网络概述.md",
-    "05 Project/portfolio.md",
+    "01 CS/计算机组成原理/第三章 运算方法和运算部件.md",
+    "01 CS/计算机组成原理/第一章 计算机系统概述.md",
     "Inbox/ＴｏＤｏ.md",
-    "07 工具/obsidian/MarkDown 语法.md",
-    "01 CS/设计模式/a. 设计模式概述.md"
+    "01 CS/计算机操作系统/第三章 线程的同步和通信.md",
+    "01 CS/计算机操作系统/第二章 线程与进程.md",
+    "01 CS/计算机组成原理/第二章 数据的表示和运算.md",
+    "02 前端/其它/vite+React+Ts 搭建环境.md",
+    "05 Project/React Hooks 与 Immutable 数据流实战.md",
+    "05 Project/portfolio.md",
+    "06 其他/windows配置.md"
   ]
 }
