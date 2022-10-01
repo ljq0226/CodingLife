@@ -12,9 +12,11 @@
   "obsidian-image-auto-upload-plugin",
   "Enhanced-editing",
   "obsidian-codemirror-options",
-  "markdown-prettifier",
   "obsidian-auto-link-title",
   "obsidian-git",
   "code-block-copy",
-  "rss-reader"
+  "rss-reader",
+  "cm-editor-syntax-highlight-obsidian",
+  "pdf-to-markdown-plugin",
+  "markdown-prettifier"
 ]
