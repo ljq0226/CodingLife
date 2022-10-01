@@ -8,5 +8,6 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "10 附件",
   "fileSortOrder": "byCreatedTimeReverse",
-  "livePreview": true
+  "livePreview": true,
+  "defaultViewMode": "source"
 }
