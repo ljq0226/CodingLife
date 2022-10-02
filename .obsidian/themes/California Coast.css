@@ -653,6 +653,7 @@ settings:
   --strong-weight: var(--bold-weight);
   --strong-color: inherit;
   --em-color: inherit;
+  --em-background-color: #ffff83;
   --workspace-drawer-ribbon-width: 46px;
   --preview-bullet-size-adjust: 100%;
   --table-min-cell-width: 0px;
@@ -2962,6 +2963,8 @@ input.document-search-input.mod-no-match:not(:placeholder-shown):focus {
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-em {
   color: var(--em-color);
+  background-color: var(--em-background-color);
+  font-weight: var(--strong-weight);
 }
 .markdown-source-view.mod-cm6.cm-s-obsidian span.cm-em.cm-header {
   font-style: italic;
@@ -5229,6 +5232,8 @@ body {
 .markdown-rendered em,
 .markdown-preview-view em {
   color: var(--em-color);
+  background-color: var(--em-background-color);
+  font-weight:var(--strong-weight)
 }
 .markdown-rendered img,
 .markdown-preview-view img {
