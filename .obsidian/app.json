@@ -7,7 +7,7 @@
   "newFileFolderPath": "11 Inbox",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "10 附件",
-  "fileSortOrder": "byCreatedTimeReverse",
+  "fileSortOrder": "alphabetical",
   "livePreview": true,
   "defaultViewMode": "source"
 }

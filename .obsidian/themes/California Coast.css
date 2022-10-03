@@ -5251,8 +5251,9 @@ body {
 .markdown-preview-view code {
   color: inherit;
 }
-.markdown-rendered code{
-color:#c7254e !important
+.markdown-rendered code,
+.markdown-preview-view code{
+color:#2c78d3
 }
 .markdown-rendered th,
 .markdown-preview-view th {
@@ -7184,3 +7185,8 @@ pre>code>span{
 .copy-code-button{
   padding:0 !important
 }
+
+.cm-s-obsidian .cm-inline-code{
+  color:#2c78d3
+}
+
