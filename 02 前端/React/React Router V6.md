@@ -2,7 +2,7 @@
 # Ultimate React Router v6 Guide
 
 
-
+![](https://obs-pic-1309372570.cos.ap-chongqing.myqcloud.com/React%20Router%20V6.png)
 
 
 ## React Router Basics
@@ -245,12 +245,41 @@ The `navigate` function has two signatures:
 
 
 ## Advanced Route Definitions
-This is where React Router really gets interesting. There is a lot of cool stuff you can do with routing to make more complex routes, easier to read, and overall much more functional. This can be done through five main techniques.
-1.  Dynamic Routing
-2.  Routing Priority
-3.  Nested Routes
-4.  Multiple Routes
-5.  `useRoutes` Hook
+This is where React Router really gets interesting. There is a lot of cool stuff you can do with routing to make more complex routes, easier to read, and overall much more functional. 
+
+### Index Routes
+Index routes can be thought of as "default child routes". When a parent route has multiple children, but the URL is just at the parent's path, you probably want to render something into the outlet.
+```tsx
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Activity />} />
+        <Route path="invoices" element={<Invoices />} />
+        <Route path="activity" element={<Activity />} />
+      </Route>
+    </Routes>
+  );
+}
+```
+Now at "/" the `<Activity>` element will render inside the outlet.
+You can have an index route at any level of the route hierarchy that will render when the parent matches but none of its other children do.
+
+### NotFound Routes
+When no other route matches the URL, you can render a "not found" route using `path="*"`. This route will match any URL, but will have the weakest precedence so the router will only pick it if no other routes match.
+```tsx
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="dashboard" element={<Dashboard />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+}
+```
+
+
 
 ### Dynamic Routing
 
@@ -342,8 +371,25 @@ function Invoices() {
 }
 ```
 #### Shared Layouts
-
-
+1. 
+```tsx
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/books" element={<BooksLayout />}>
+    <Route index element={<BookList />} />
+    <Route path=":id" element={<Book />} />
+    <Route path="new" element={<NewBook />} />
+  </Route>
+  <Route path="*" element={<NotFound />} />
+</Routes>
+```
+2. 
+```tsx
+<Route element={<OtherLayout />}>
+    <Route path="/contact" element={<Contact />} />
+    <Route path="/about" element={<About />} />
+  </Route>
+```
 #### useOutletContext()
 Often parent routes manage state or other values you want shared with child routes. You can create your own context provider if you like, but this is such a common situation that it's built-into `<Outlet />`:
 ```tsx 
@@ -398,12 +444,38 @@ export default function DashboardMessages() {
 ```
 ### Multiple Routes
 
-### useRoutes Hook
+Although you should only ever have a single `<Router>` in an app, you may have as many [`<Routes>`](https://reactrouter.com/en/v6.3.0/api.md#routes) as you need, wherever you need them. Each `<Routes>` element operates independently of the others and picks a child route to render.
+```tsx
+function App() {
+  return (
+    <div>
+      <Sidebar>
+        <Routes>
+          <Route path="/" element={<MainNav />} />
+          <Route
+            path="dashboard"
+            element={<DashboardNav />}
+          />
+        </Routes>
+      </Sidebar>
 
-## Handling Navigation
-
-
-
+      <MainContent>
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route path="about" element={<About />} />
+            <Route path="support" element={<Support />} />
+          </Route>
+          <Route path="dashboard" element={<Dashboard />}>
+            <Route path="invoices" element={<Invoices />} />
+            <Route path="team" element={<Team />} />
+          </Route>
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </MainContent>
+    </div>
+  );
+}
+```
 
 
 
