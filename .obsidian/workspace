@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01 CS/设计模式/a. 设计模式概述.md",
+            "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256,
-    "collapsed": true
+    "width": 256
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -78,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/设计模式/a. 设计模式概述.md"
+                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md"
               }
             }
           },
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/设计模式/a. 设计模式概述.md",
+                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/设计模式/a. 设计模式概述.md",
+                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,14 +138,6 @@
             }
           },
           {
-            "id": "d51ea097b941c978",
-            "type": "leaf",
-            "state": {
-              "type": "RSS_FEED",
-              "state": {}
-            }
-          },
-          {
             "id": "e0d85ec5678160ec",
             "type": "leaf",
             "state": {
@@ -158,19 +149,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 268
   },
   "active": "745810a849818c75",
   "lastOpenFiles": [
-    "03 后端/NestJS/nest-docs-9.0/13 Migration guide/13 Migration guide.md",
-    "03 后端/NestJS/nest-docs-9.0/08 Standalone Apps/08 Standalone Apps.md",
-    "03 后端/NestJS/nest-docs-9.0/enterprise.md",
-    "03 后端/NestJS/03 Provider.md",
-    "03 后端/NestJS/04 Modules.md",
-    "03 后端/NestJS/nest-docs-9.0/support.md",
-    "03 后端/NestJS/nest-docs-9.0/01 overView/00 Introduction.md",
-    "03 后端/NestJS/nest-docs-9.0/01 overView/01 First-steps.md",
+    "03 后端/NestJS/搭建环境.md",
     "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
-    "03 后端/NestJS/nest-docs-9.0/01 overView/10 Custom-decorators.md"
+    "03 后端/NestJS/nest-docs-9.0/01 overView/01 First-steps.md",
+    "01 CS/计算机网络/Others/第三章 数据链路层.md",
+    "01 CS/计算机网络/Others/第二章 物理层.md",
+    "01 CS/计算机网络/Others/第一章 计算机网络概述.md",
+    "01 CS/计算机网络/a 计算机网络.md",
+    "01 CS/设计模式/a. 设计模式概述.md",
+    "03 后端/NestJS/nest-docs-9.0/13 Migration guide/13 Migration guide.md",
+    "03 后端/NestJS/nest-docs-9.0/08 Standalone Apps/08 Standalone Apps.md"
   ]
 }

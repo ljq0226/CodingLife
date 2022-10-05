@@ -47,7 +47,7 @@ In our example above, when a GET request is made to this endpoint, Nest routes t
 + 返回值默认附带 status,status 根据请求方式不同而不同,具体看下面。
 ```
 
-This method will return a 200 status code and the associated response, which in this case is just a string. Why does that happen? To explain, we'll first introduce the concept that Nest employs two **different** options for manipulating responses:
+This method will return a 200 status code and the associated response, which in this case is just a string. Why does that happen? To explain, we'll first introduce the concept that Nest employs **two different options for manipulating responses:**
 
 <table>
   <tr>
@@ -100,7 +100,7 @@ The request object represents the HTTP request and has properties for the reques
 * For compatibility with typings across underlying HTTP platforms (e.g., Express and Fastify), Nest provides `@Res()` and `@Response()` decorators. `@Res()` is simply an alias for `@Response()`. Both directly expose the underlying native platform `response` object interface. When using them, you should also import the typings for the underlying library (e.g., `@types/express`) to take full advantage. Note that when you inject either `@Res()` or `@Response()` in a method handler, you put Nest into **Library-specific mode** for that handler, and you become responsible for managing the response. When doing so, you must issue some kind of response by making a call on the `response` object (e.g., `res.json(...)` or `res.send(...)`), or the HTTP server will hang.
 
 ```ad-hint
-To learn how to create your own custom decorators, visit [this](https://docs.nestjs.com/custom-decorators) chapter.
+To learn how to create your own custom decorators, visit [[10 Custom-decorators|this]] chapter.
 ```
 
 #### Resources
@@ -124,7 +124,7 @@ export class CatsController {
 
 It's that simple. Nest provides decorators for all of the standard HTTP methods: `@Get()`, `@Post()`, `@Put()`, `@Delete()`, `@Patch()`, `@Options()`, and `@Head()`. In addition, `@All()` defines an endpoint that handles all of them.
 
-#### Route wildcards
+#### Route wildcards(通配符)
 
 Pattern based routes are supported as well. For instance, the asterisk is used as a wildcard, and will match any combination of characters.
 
