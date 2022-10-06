@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"02 前端\"",
+  "search": "path:\"03 后端\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.000000000000013,
-  "close": true
+  "scale": 0.2588386562181663,
+  "close": false
 }

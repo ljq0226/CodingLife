@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
+            "file": "01 CS/设计模式/UML 类图.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md"
+                "file": "01 CS/设计模式/UML 类图.md"
               }
             }
           },
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
+                "file": "01 CS/设计模式/UML 类图.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
+                "file": "01 CS/设计模式/UML 类图.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,24 +144,32 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "cb438c105d2a2fb7",
+            "type": "leaf",
+            "state": {
+              "type": "RSS_FEED",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 268
+    "width": 229
   },
   "active": "745810a849818c75",
   "lastOpenFiles": [
-    "03 后端/NestJS/搭建环境.md",
+    "01 CS/设计模式/a. 设计模式概述.md",
     "03 后端/NestJS/nest-docs-9.0/01 overView/02 Controller.md",
     "03 后端/NestJS/nest-docs-9.0/01 overView/01 First-steps.md",
-    "01 CS/计算机网络/Others/第三章 数据链路层.md",
-    "01 CS/计算机网络/Others/第二章 物理层.md",
-    "01 CS/计算机网络/Others/第一章 计算机网络概述.md",
-    "01 CS/计算机网络/a 计算机网络.md",
-    "01 CS/设计模式/a. 设计模式概述.md",
-    "03 后端/NestJS/nest-docs-9.0/13 Migration guide/13 Migration guide.md",
-    "03 后端/NestJS/nest-docs-9.0/08 Standalone Apps/08 Standalone Apps.md"
+    "03 后端/NestJS/nest-docs-9.0/01 overView/00 Introduction.md",
+    "02 前端/React/zustand.md",
+    "02 前端/React/index.md",
+    "02 前端/React/搭建环境.md",
+    "03 后端/NestJS/nest-docs-9.0/01 overView/05 Middleware.md",
+    "03 后端/NestJS/nest-docs-9.0/01 overView/04 Module.md",
+    "03 后端/NestJS/nest-docs-9.0/01 overView/03 Provider.md"
   ]
 }

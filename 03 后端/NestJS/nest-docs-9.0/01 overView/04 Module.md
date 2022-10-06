@@ -2,7 +2,7 @@
 
 A module is a class annotated with a `@Module()` decorator. The `@Module()` decorator provides metadata that **Nest** makes use of to organize the application structure.
 
-<figure><img src="/assets/Modules_1.png" /></figure>
+<figure><img src="https://docs.nestjs.com/assets/Modules_1.png" /></figure>
 
 Each application has at least one module, a **root module**. The root module is the starting point Nest uses to build the **application graph** - the internal data structure Nest uses to resolve module and provider relationships and dependencies. While very small applications may theoretically have just the root module, this is not the typical case. We want to emphasize that modules are **strongly** recommended as an effective way to organize your components. Thus, for most applications, the resulting architecture will employ multiple modules, each encapsulating a closely related set of **capabilities**.
 
@@ -36,7 +36,9 @@ import { CatsService } from './cats.service';
 export class CatsModule {}
 ```
 
-> info **Hint** To create a module using the CLI, simply execute the `$ nest g module cats` command.
+```ad-info
+ To create a module using the CLI, simply execute the `$ nest g module cats` command.
+```
 
 Above, we defined the `CatsModule` in the `cats.module.ts` file, and moved everything related to this module into the `cats` directory. The last thing we need to do is import this module into the root module (the `AppModule`, defined in the `app.module.ts` file).
 
@@ -51,29 +53,6 @@ import { CatsModule } from './cats/cats.module';
 export class AppModule {}
 ```
 
-Here is how our directory structure looks now:
-
-<div class="file-tree">
-  <div class="item">src</div>
-  <div class="children">
-    <div class="item">cats</div>
-    <div class="children">
-      <div class="item">dto</div>
-      <div class="children">
-        <div class="item">create-cat.dto.ts</div>
-      </div>
-      <div class="item">interfaces</div>
-      <div class="children">
-        <div class="item">cat.interface.ts</div>
-      </div>
-      <div class="item">cats.controller.ts</div>
-      <div class="item">cats.module.ts</div>
-      <div class="item">cats.service.ts</div>
-    </div>
-    <div class="item">app.module.ts</div>
-    <div class="item">main.ts</div>
-  </div>
-</div>
 
 #### Shared modules
 

@@ -7153,18 +7153,30 @@ body .zoom-plugin-delimiter::after {
   transform: scale(0.5, 0.85);
   content: "▶";
 }
+pre{
+  background: #82bbf2 !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#82bbf2, #255ba8) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#82bbf2, #255ba8 ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
 pre code{
-  padding: 16px 16px 18px 16px !important;
+  padding: 30px 20px 20px 25px !important;
+  margin:20px 20px;
   overflow-x: auto !important;
   position: relative;
-  border-radius: 5px;
+  border-radius: 15px;
   max-width: 100%;
   overflow: auto;
   text-shadow: none;
-  box-shadow: 0 10px 30px 0px rgba(0,0,0,.4);
+  box-shadow: 0 10px 30px 0px rgba(0,0,0,.7);
+  background:rgba(22, 36, 53,0.95) !important;
+  opacity:1 !important
 }
 
 pre:before{
+  margin-left:25px;
+  margin-top:27px;
   content: " ";
   position: absolute;
   -webkit-border-radius: 50%;
@@ -7177,16 +7189,48 @@ pre:before{
   box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
   z-index: 2;
 }
+/* .cm-widgetBuffer */
+/* .markdown-source-view.mod-cm6.cm-s-obsidian .HyperMD-codeblock-begin :before{
+  content: " ";
+  position: absolute;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #fc625d;
+  width: 12px;
+  height: 12px;
+  left: 12px;
+  -webkit-box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40,40px 0 #35cd4b;
+  z-index: 2;
+}
+
+.markdown-source-view.mod-cm6.cm-s-obsidian .HyperMD-codeblock-begin {
+  padding-top:18px;
+
+} */
+
 /* 
 pre>code>span{
   border:0 !important
   padding:0 !important
 } */
 .copy-code-button{
-  padding:0 !important
+  font-size:16px !important;
+  margin-top:30px !important;
+  margin-right:34px !important;
+  padding:0 !important;
+  background:#eee!important;
+  border-radius:5px !important;
+
 }
 
-.cm-s-obsidian .cm-inline-code{
+.cm-s-obsidian span.cm-inline-code{
   color:#2c78d3
 }
 
+code.language-code{
+  color:black 
+}
+body.fallback-highlighting[class*="theme-"] .markdown-preview-view pre.cm-s-obsidian[class*="language-"], body.fallback-highlighting[class*="theme-"] .markdown-preview-view code[class*="language-"], body.fallback-highlighting[class*="theme-"] .markdown-preview-view .HyperMD-codeblock, body.fallback-highlighting[class*="theme-"] .markdown-preview-view .cm-hmd-codeblock{
+  color:#2c78d3 !important;
+}

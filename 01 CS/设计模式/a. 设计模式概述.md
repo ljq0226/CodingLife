@@ -43,6 +43,8 @@
 
 ## 面向对象设计原则
 
+[Principles of Object-Oriented Design](http://www.cs.utsa.edu/~cs3443/notes/designPrinciples/designPrinciples.html)
+
 面向对象设计原则为支持**可维护性复用**而诞生,**指导性原则**而非强制性原则，用于评价一个设计模式的使用效果的重要指标之一。
 + 可维护性(Maintainability)：指软件能够被理解、改正、适应及扩展的难易程度
 + 可复用性(Reusability)：指软件能够被重复使用的难易程度

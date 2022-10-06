@@ -5,6 +5,8 @@ Controllers are *responsible for handling incoming requests and returning res
 
 A controller's purpose is to receive specific requests for the application. The **routing** mechanism(机制) controls which controller receives which requests. Frequently, **each controller has more than one route**, and different routes can perform different actions.
 
+`asd`
+
 In order to create a basic controller, we use classes and **decorators**. Decorators associate classes with required metadata and enable Nest to create a routing map (tie requests to the corresponding（对应的） controllers).
 
 ```ad-note
@@ -19,7 +21,7 @@ For quickly creating a CRUD controller with the validation built-in, you may use
 ### Routing
 In the following example we'll use the `@Controller()` decorator, which is **required** to define a basic controller. We'll specify an optional route path prefix of `cats`. Using a **path prefix** in a `@Controller()` decorator allows us to easily group a set of related routes, and **minimize repetitive code.** For example, we may choose to group a set of routes that manage interactions with a customer entity under the route `/customers`. In that case, we could specify the path prefix `customers` in the `@Controller()` decorator so that we don't have to repeat that portion of the path for each route in the file.
 
-```typescript
+```js
 import { Controller, Get } from '@nestjs/common';
 @Controller('cats')
 export class CatsController {
@@ -128,7 +130,7 @@ It's that simple. Nest provides decorators for all of the standard HTTP methods:
 
 Pattern based routes are supported as well. For instance, the asterisk is used as a wildcard, and will match any combination of characters.
 
-```typescript
+```ts
 @Get('ab*cd')
 findAll() {
   return 'This route uses a wildcard';
@@ -173,7 +175,7 @@ Import `Header` from the `@nestjs/common` package.
 #### Redirection
 To redirect a response to a specific URL, you can either use a `@Redirect() `decorator or a library-specific response object (and call `res.redirect()` directly).
 
-@Redirect() takes two arguments, url and statusCode, both are optional. The default value of statusCode is 302 (Found) if omitted.
+ `@Redirect() `takes two arguments, url and statusCode, both are optional. The default value of statusCode is 302 (Found) if omitted.
 
 ```typescript
 @Get()

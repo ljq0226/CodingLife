@@ -16,8 +16,8 @@
   "obsidian-git",
   "code-block-copy",
   "rss-reader",
-  "cm-editor-syntax-highlight-obsidian",
   "pdf-to-markdown-plugin",
   "markdown-prettifier",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]
