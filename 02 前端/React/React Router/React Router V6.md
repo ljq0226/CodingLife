@@ -179,8 +179,6 @@ function NavList() {
 
 #### Navigate
 
-
-
 A `<Navigate>` element changes the current location **when it is rendered**. It's a component wrapper around [`useNavigate`](https://reactrouter.com/en/v6.3.0/api#usenavigate), and accepts all the same arguments as props.
 
 ```tsx
