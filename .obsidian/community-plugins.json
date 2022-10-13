@@ -19,5 +19,6 @@
   "pdf-to-markdown-plugin",
   "markdown-prettifier",
   "table-editor-obsidian",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "copy-as-html"
 ]
