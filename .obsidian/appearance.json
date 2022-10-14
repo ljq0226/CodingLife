@@ -1,8 +1,9 @@
 {
-  "cssTheme": "California Coast",
+  "cssTheme": "Minimal",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "custom-admonitions.45860b"
   ],
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "accentColor": ""
 }
