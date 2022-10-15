@@ -13,7 +13,7 @@
 
 ## Relations
 ### One to One
-```prisma
+```ts
 model User {
   id      Int      @id @default(autoincrement())
   profile Profile? 
@@ -35,7 +35,7 @@ model Profile {
 
 
 ### One to Many
-```prisma
+```ts
 model User {
   id    Int    @id @default(autoincrement())
   posts Post[]

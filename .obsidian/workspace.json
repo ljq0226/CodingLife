@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 后端/NestJS/搭建环境.md",
+                "file": "2022-10-11.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "196dd5c588e159c7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242
+    "width": 200
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -96,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 后端/NestJS/搭建环境.md"
+                "file": "2022-10-11.md"
               }
             }
           },
@@ -106,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 后端/NestJS/搭建环境.md",
+                "file": "2022-10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 后端/NestJS/搭建环境.md",
+                "file": "2022-10-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,13 +170,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "196dd5c588e159c7",
+  "active": "ce54b4364b82f9f8",
   "lastOpenFiles": [
+    "03 后端/node/prisma/00 prisma.md",
+    "03 后端/NestJS/搭建环境.md",
     "Inbox/ＴｏＤｏ.md",
     "2022-10-11.md",
     "01 CS/设计模式/a. 设计模式概述.md",
-    "03 后端/NestJS/搭建环境.md",
-    "03 后端/node/prisma/00 prisma.md",
     "02 前端/React/React Router/React Router V6.md",
     "01 CS/设计模式/UML 类图.md",
     "05 Project/Spotify.md",
