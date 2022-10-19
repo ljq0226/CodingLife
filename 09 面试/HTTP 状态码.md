@@ -1,0 +1,98 @@
+# 信息相应(100~199)
+
+    CONTINUE = 100,
+
+    SWITCHING_PROTOCOLS = 101,
+
+    PROCESSING = 102,
+
+    EARLYHINTS = 103,
+
+    OK = 200,
+
+    CREATED = 201,
+
+    ACCEPTED = 202,
+
+    NON_AUTHORITATIVE_INFORMATION = 203,
+
+    NO_CONTENT = 204,
+
+    RESET_CONTENT = 205,
+
+    PARTIAL_CONTENT = 206,
+
+    AMBIGUOUS = 300,
+
+    MOVED_PERMANENTLY = 301,
+
+    FOUND = 302,
+
+    SEE_OTHER = 303,
+
+    NOT_MODIFIED = 304,
+
+    TEMPORARY_REDIRECT = 307,
+
+    PERMANENT_REDIRECT = 308,
+# 客户端错误(400~499)
+   **BAD_REQUEST = 400**, 由于被认为是客户端错误（例如，错误的请求语法、无效的请求消息帧或欺骗性的请求路由），服务器无法或不会处理请求。
+
+   **UNAUTHORIZED = 401**,客户端必须对自身进行身份验证才能获得请求的响应。
+
+   **PAYMENT_REQUIRED = 402,**
+
+   **FORBIDDEN = 403**,客户端没有访问内容的权限；
+
+   **NOT_FOUND = 404**,服务器找不到请求的资源。在浏览器中，这意味着无法识别 URL。在 API 中，这也可能意味着端点有效，但资源本身不存在。
+
+   METHOD_NOT_ALLOWED = 405,
+
+   NOT_ACCEPTABLE = 406,
+
+   PROXY_AUTHENTICATION_REQUIRED = 407,
+
+   REQUEST_TIMEOUT = 408,
+
+   CONFLICT = 409,
+
+   GONE = 410,
+
+   LENGTH_REQUIRED = 411,
+
+   PRECONDITION_FAILED = 412,
+
+   PAYLOAD_TOO_LARGE = 413,
+
+   URI_TOO_LONG = 414,
+
+   UNSUPPORTED_MEDIA_TYPE = 415,
+
+   REQUESTED_RANGE_NOT_SATISFIABLE = 416,
+
+   EXPECTATION_FAILED = 417,
+
+   I_AM_A_TEAPOT = 418,
+
+   MISDIRECTED = 421,
+
+   UNPROCESSABLE_ENTITY = 422,
+
+   FAILED_DEPENDENCY = 424,
+
+   PRECONDITION_REQUIRED = 428,
+
+   TOO_MANY_REQUESTS = 429,
+# 服务端错误响应
+
+   **INTERNAL_SERVER_ERROR = 500**,服务器遇到了不知道如何处理的情况。
+
+   NOT_IMPLEMENTED = 501,
+
+   BAD_GATEWAY = 502,
+
+   SERVICE_UNAVAILABLE = 503,
+
+   GATEWAY_TIMEOUT = 504,
+
+   HTTP_VERSION_NOT_SUPPORTED = 505
