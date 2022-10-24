@@ -226,6 +226,3 @@ server: {
   }
 ```
 
-## 配置react Router
-安装react-router
-`yarn add react-router-dom@6`
