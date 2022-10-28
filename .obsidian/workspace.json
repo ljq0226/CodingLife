@@ -6,6 +6,7 @@
       {
         "id": "71fba9487088f017",
         "type": "tabs",
+        "dimension": 81.16621983914209,
         "children": [
           {
             "id": "ef853c3434e0ca66",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 CS/设计模式/6种创建型设计模式.md",
+                "file": "01 CS/设计模式/创建型设计模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +26,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 CS/计算机网络/a 计算机网络.md",
+                "file": "01 CS/设计模式/结构型设计模式.md",
                 "mode": "source",
                 "source": false
+              }
+            },
+            "group": "ee5a0f6f15e4b3bb"
+          },
+          {
+            "id": "807d566068f273c1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "3b7def01ec5c7c7c",
+        "type": "tabs",
+        "dimension": 18.833780160857906,
+        "children": [
+          {
+            "id": "900f6acc07da6980",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 CS/设计模式/结构型设计模式.md"
+              }
+            },
+            "group": "ee5a0f6f15e4b3bb"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/计算机网络/a 计算机网络.md"
+                "file": "01 CS/设计模式/结构型设计模式.md"
               }
             }
           },
@@ -108,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/计算机网络/a 计算机网络.md",
+                "file": "01 CS/设计模式/结构型设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/计算机网络/a 计算机网络.md",
+                "file": "01 CS/设计模式/结构型设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,20 +195,17 @@
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "a1cb04714d0788ea",
+  "active": "807d566068f273c1",
   "lastOpenFiles": [
+    "01 CS/设计模式/创建型设计模式.md",
+    "01 CS/设计模式/a. 设计模式概述.md",
+    "01 CS/设计模式/结构型设计模式.md",
+    "Inbox/ＴｏＤｏ.md",
+    "01 CS/计算机网络/a 计算机网络.md",
     "01 CS/计算机网络/Others/第三章 数据链路层.md",
     "01 CS/计算机网络/Others/第二章 物理层.md",
     "01 CS/计算机网络/Others/第一章 计算机网络概述.md",
-    "01 CS/计算机网络/a 计算机网络.md",
-    "01 CS/设计模式/结构型设计模式.md",
-    "01 CS/设计模式/6种创建型设计模式.md",
-    "Inbox/ＴｏＤｏ.md",
     "08 日记/2022-10-(四).md",
-    "08 日记/2022-10-(三).md",
-    "08 日记/2022-10-(二).md"
+    "08 日记/2022-10-(三).md"
   ]
 }
