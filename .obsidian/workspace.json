@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/ＴｏＤｏ.md",
+                "file": "01 CS/设计模式/创建型设计模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77a367aed0e63a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 前端/Next.js/Next.js 13 Beta.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/ＴｏＤｏ.md"
+                "file": "02 前端/Next.js/Next.js 13 Beta.md"
               }
             }
           },
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/ＴｏＤｏ.md",
+                "file": "02 前端/Next.js/Next.js 13 Beta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/ＴｏＤｏ.md",
+                "file": "02 前端/Next.js/Next.js 13 Beta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,17 +165,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "2dd895db825df038",
+  "active": "77a367aed0e63a9a",
   "lastOpenFiles": [
+    "01 CS/设计模式/创建型设计模式.md",
+    "01 CS/设计模式/适配器模式.md",
+    "Inbox/ＴｏＤｏ.md",
     "05 Project/portfolio.md",
     "Excalidraw/2022-10-28 流程图1.excalidraw.md",
     "01 CS/计算机操作系统/a 操作系统.md",
     "01 CS/设计模式/结构型设计模式.md",
-    "01 CS/设计模式/创建型设计模式.md",
     "01 CS/设计模式/a. 设计模式概述.md",
-    "Inbox/ＴｏＤｏ.md",
     "01 CS/计算机网络/a 计算机网络.md",
-    "01 CS/计算机网络/Others/第三章 数据链路层.md",
-    "01 CS/计算机网络/Others/第二章 物理层.md"
+    "01 CS/计算机网络/Others/第三章 数据链路层.md"
   ]
 }
