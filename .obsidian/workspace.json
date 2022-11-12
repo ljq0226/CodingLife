@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "Inbox/ＴｏＤｏ.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 索引/优秀博客.md"
+                "file": "Inbox/ＴｏＤｏ.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "Inbox/ＴｏＤｏ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "Inbox/ＴｏＤｏ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,6 +167,7 @@
   },
   "active": "01f3a585b009b8d9",
   "lastOpenFiles": [
+    "00 索引/优秀博客.md",
     "00 索引/待看博客.md",
     "Inbox/ＴｏＤｏ.md",
     "08 日记/2022-11-（一）.md",
@@ -175,7 +176,6 @@
     "08 日记/2022-10-(二).md",
     "01 CS/设计模式/创建型设计模式.md",
     "11 面试/总结/要求.md",
-    "11 面试/总结/面试总结 文章.md",
-    "00 索引/随便.md"
+    "11 面试/总结/面试总结 文章.md"
   ]
 }
