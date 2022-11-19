@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "03 后端/MongoDB/MongoShell.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 索引/优秀博客.md"
+                "file": "03 后端/MongoDB/MongoShell.md"
               }
             }
           },
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "03 后端/MongoDB/MongoShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 索引/优秀博客.md",
+                "file": "03 后端/MongoDB/MongoShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,15 +154,15 @@
   },
   "active": "77a367aed0e63a9a",
   "lastOpenFiles": [
+    "03 后端/MongoDB/Update Documents.md",
+    "03 后端/MongoDB/Query Documents.md",
+    "03 后端/MongoDB/MongoShell.md",
+    "03 后端/MongoDB/00 MongoDB.md",
+    "03 后端/MongoDB/Add Documents.md",
+    "00 索引/优秀博客.md",
     "00 索引/随便.md",
     "00 索引/待看博客.md",
-    "00 索引/优秀博客.md",
     "02 前端/Framer-Motion.md",
-    "03 后端/node/prisma/00 prisma.md",
-    "03 后端/NestJS/搭建环境.md",
-    "03 后端/NestJS/Nest-Pipes.md",
-    "02 前端/Next.js/Next.js 13 Beta.md",
-    "Inbox/ＴｏＤｏ.md",
-    "08 日记/2022-11-（一）.md"
+    "03 后端/node/prisma/00 prisma.md"
   ]
 }
