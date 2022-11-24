@@ -105,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00 索引/随便.md"
+              }
             }
           },
           {
@@ -114,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00 索引/随便.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00 索引/随便.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
