@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "ba6945c0e4dfcc8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 CS/计算机操作系统/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5d3f8a32dcf6d585",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 日记/2022-11-（四）.md"
+                "file": "01 CS/计算机操作系统/Untitled.md"
               }
             }
           },
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08 日记/2022-11-（四）.md",
+                "file": "01 CS/计算机操作系统/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08 日记/2022-11-（四）.md",
+                "file": "01 CS/计算机操作系统/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,15 +176,15 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "77a367aed0e63a9a",
+  "active": "ba6945c0e4dfcc8b",
   "lastOpenFiles": [
+    "08 日记/2022-11-（四）.md",
     "08 日记/2022-11-（一）.md",
     "00 索引/随便.md",
     "08 日记/ReactRouter v6.4.4 Document Tutorial.md",
     "08 日记/React中渲染markdown到页面.md",
     "08 日记/待看Blog.md",
     "08 日记/记我的平板.md",
-    "08 日记/2022-11-（四）.md",
     "00 索引/test.md",
     "00 索引/优秀博客.md",
     "03 后端/MongoDB/MongoShell.md"

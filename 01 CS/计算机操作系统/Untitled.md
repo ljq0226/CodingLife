@@ -1,0 +1,3 @@
+2. to the highest summits of artistry
+Your ability is top-drawer—rarely does anyone lie as convincingly or as artistically as you do. Your skill has, in short, reached the zenith of perfection. Indeed, your mastery of the art is so great that your lying is almost always crowned with success—and you have no trouble seducing an unwary listener into believing that you are telling gospel truth.
+A consummate liar
