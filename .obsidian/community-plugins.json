@@ -21,5 +21,7 @@
   "cm-editor-syntax-highlight-obsidian",
   "copy-as-html",
   "obsidian-minimal-settings",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-pandoc",
+  "obsidian-dynamic-toc"
 ]

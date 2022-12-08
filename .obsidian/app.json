@@ -9,5 +9,12 @@
   "attachmentFolderPath": "10 附件",
   "fileSortOrder": "alphabetical",
   "livePreview": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

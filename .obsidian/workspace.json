@@ -25,9 +25,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 CS/计算机操作系统/Untitled.md",
+                "file": "00 索引/test.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "408b30f6a6b2f6f0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "HTTP权威指南（中文版）.pdf"
+              }
+            }
+          },
+          {
+            "id": "65ef00f27bbec153",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "HTTP权威指南（中文版）.pdf"
               }
             }
           },
@@ -44,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graphql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 CS/计算机操作系统/Untitled.md"
+                "file": "HTTP权威指南（中文版）.pdf"
               }
             }
           },
@@ -120,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 CS/计算机操作系统/Untitled.md",
+                "file": "HTTP权威指南（中文版）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 CS/计算机操作系统/Untitled.md",
+                "file": "HTTP权威指南（中文版）.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,17 +196,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "ba6945c0e4dfcc8b",
+  "active": "65ef00f27bbec153",
   "lastOpenFiles": [
-    "08 日记/2022-11-（四）.md",
-    "08 日记/2022-11-（一）.md",
-    "00 索引/随便.md",
-    "08 日记/ReactRouter v6.4.4 Document Tutorial.md",
-    "08 日记/React中渲染markdown到页面.md",
-    "08 日记/待看Blog.md",
-    "08 日记/记我的平板.md",
+    "HTTP权威指南（中文版）.md",
+    "HTTP权威指南（中文版）.pdf",
+    "11 面试/Untitled.md",
+    "11 面试/CUGGZ 面试题.md",
+    "11 面试/CSS.md",
+    "11 面试/计算机网络.md",
+    "11 面试/HTML面试题.md",
+    "Excalidraw/Drawing 2022-12-07 18.29.28.excalidraw.md",
     "00 索引/test.md",
-    "00 索引/优秀博客.md",
-    "03 后端/MongoDB/MongoShell.md"
+    "00 索引/优秀博客.md"
   ]
 }
