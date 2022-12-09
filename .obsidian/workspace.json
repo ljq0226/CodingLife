@@ -32,26 +32,6 @@
             }
           },
           {
-            "id": "408b30f6a6b2f6f0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "HTTP权威指南（中文版）.pdf"
-              }
-            }
-          },
-          {
-            "id": "65ef00f27bbec153",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "HTTP权威指南（中文版）.pdf"
-              }
-            }
-          },
-          {
             "id": "5d3f8a32dcf6d585",
             "type": "leaf",
             "state": {
@@ -64,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP权威指南（中文版）.pdf"
+                "file": "00 索引/test.md"
               }
             }
           },
@@ -140,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTTP权威指南（中文版）.pdf",
+                "file": "00 索引/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTTP权威指南（中文版）.pdf",
+                "file": "00 索引/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,10 +176,10 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "65ef00f27bbec153",
+  "active": "ba6945c0e4dfcc8b",
   "lastOpenFiles": [
-    "HTTP权威指南（中文版）.md",
     "HTTP权威指南（中文版）.pdf",
+    "HTTP权威指南（中文版）.md",
     "11 面试/Untitled.md",
     "11 面试/CUGGZ 面试题.md",
     "11 面试/CSS.md",
