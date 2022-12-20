@@ -22,6 +22,6 @@
   "copy-as-html",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "obsidian-pandoc",
-  "obsidian-dynamic-toc"
+  "obsidian-dynamic-toc",
+  "obsidian-pandoc"
 ]
