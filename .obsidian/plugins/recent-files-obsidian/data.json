@@ -1,0 +1,49 @@
+{
+  "recentFiles": [
+    {
+      "basename": "优秀博客",
+      "path": "00 索引/优秀博客.md"
+    },
+    {
+      "basename": "第二章 线程与进程",
+      "path": "01 CS/计算机操作系统/第二章 线程与进程.md"
+    },
+    {
+      "basename": "portfolio",
+      "path": "05 Project/portfolio.md"
+    },
+    {
+      "basename": "2022-10-(三)",
+      "path": "08 日记/2022-10-(三).md"
+    },
+    {
+      "basename": "随便",
+      "path": "00 索引/随便.md"
+    },
+    {
+      "basename": "待看博客",
+      "path": "00 索引/待看博客.md"
+    },
+    {
+      "basename": "Spotify",
+      "path": "05 Project/Spotify.md"
+    },
+    {
+      "basename": "React Hooks 与 Immutable 数据流实战",
+      "path": "05 Project/React Hooks 与 Immutable 数据流实战.md"
+    },
+    {
+      "basename": "2022-10-(二)",
+      "path": "08 日记/2022-10-(二).md"
+    },
+    {
+      "basename": "windows配置",
+      "path": "07 工具/windows配置.md"
+    }
+  ],
+  "omittedPaths": [
+    ""
+  ],
+  "maxLength": null,
+  "openType": "tab"
+}

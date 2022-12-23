@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🤟",
+      "⚛",
+      "📖",
+      "🖥",
+      "😀"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "00 索引": "😀",
+  "01 CS": "🖥",
+  "06 Book": "📖",
+  "07 工具": "⚛",
+  "08 日记": "🤟"
+}

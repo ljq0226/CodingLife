@@ -1,0 +1,31 @@
+/*----------------CALLOUTS-------------------*/
+.anp-callout-fold-position {
+  --anp-callout-fold-position: 1;
+}
+.callout-title-inner {
+  flex-grow: 1;
+}
+.callout-title {
+  --bold-color: currentColor;
+  --italic-color: currentColor;
+}
+.theme-light.anp-callout-toggle .callout-title-inner,
+.theme-light.anp-callout-toggle.anp-callout-normal-toggle .callout:not(.is-collapsible) .callout-title-inner {
+  color: var(--text-normal);
+  --bold-color: var(--text-normal);
+  --italic-color: var(--text-normal);
+}
+.anp-callout-toggle .callout-content > {
+  p, ul, ol {
+    &:first-child {
+      margin-top: 0px;
+    }
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@import "styles/block.scss";
+@import "styles/sleek.scss";
+@import "styles/vanilla.scss";

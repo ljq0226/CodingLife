@@ -1,9 +1,12 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "anu",
   "baseFontSize": 17,
   "enabledCssSnippets": [
-    "custom-admonitions.45860b"
+    "custom-admonitions.45860b",
+    "AnuExtendTheme",
+    "yaozhuwa@CSS",
+    "表格优化"
   ],
   "theme": "moonstone",
-  "accentColor": ""
+  "accentColor": "#3700ff"
 }

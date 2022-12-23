@@ -23,5 +23,8 @@
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "obsidian-dynamic-toc",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "mysnippets-plugin",
+  "obsidian-icon-folder",
+  "recent-files-obsidian"
 ]
