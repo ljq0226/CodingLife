@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/算法分析课程设计.md",
+                "file": "11 面试/算法分析课程设计.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293,
-    "collapsed": true
+    "width": 293
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/算法分析课程设计.md",
+                "file": "11 面试/算法分析课程设计.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/算法分析课程设计.md",
+                "file": "11 面试/算法分析课程设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/算法分析课程设计.md"
+                "file": "11 面试/算法分析课程设计.md"
               }
             }
           }
@@ -208,7 +207,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "499bd9c43b8a42ba",
+  "active": "d344f57ce2894bd1",
   "lastOpenFiles": [
     "Inbox/12023020234 罗佳庆.md",
     "01 CS/计算机操作系统/第一章 操作系统引论.md",
