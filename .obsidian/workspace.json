@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a99caa22c89fc083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07 工具/Beta React Docs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3ed192683c754e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/12023020234 罗佳庆.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "499bd9c43b8a42ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/算法分析.md",
+                "file": "Inbox/算法分析课程设计.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "991ed75c1bc252e9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293
+    "width": 293,
+    "collapsed": true
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -137,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/算法分析.md",
+                "file": "Inbox/算法分析课程设计.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/算法分析.md",
+                "file": "Inbox/算法分析课程设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/算法分析.md"
+                "file": "Inbox/算法分析课程设计.md"
               }
             }
           }
