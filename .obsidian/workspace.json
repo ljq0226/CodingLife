@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "499bd9c43b8a42ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/算法分析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "991ed75c1bc252e9",
             "type": "leaf",
             "state": {
@@ -42,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inbox/12023020234 罗佳庆.md",
+                "file": "Inbox/算法分析.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inbox/12023020234 罗佳庆.md",
+                "file": "Inbox/算法分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inbox/12023020234 罗佳庆.md"
+                "file": "Inbox/算法分析.md"
               }
             }
           }
@@ -230,10 +242,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e3ed192683c754e7",
+  "active": "499bd9c43b8a42ba",
   "lastOpenFiles": [
-    "01 CS/计算机操作系统/第一章 操作系统引论.md",
     "Inbox/12023020234 罗佳庆.md",
+    "01 CS/计算机操作系统/第一章 操作系统引论.md",
     "07 工具/Beta React Docs.md",
     "07 工具/Beta React Docs.canvas",
     "07 工具/windows配置.md",
