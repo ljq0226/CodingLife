@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293
+    "width": 293,
+    "collapsed": true
   },
   "right": {
     "id": "dad0c1c5a884efc9",
@@ -207,8 +208,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d344f57ce2894bd1",
+  "active": "499bd9c43b8a42ba",
   "lastOpenFiles": [
+    "Excalidraw/20230102算法课程设计图1.excalidraw.md",
+    "11 面试/算法分析课程设计.md",
     "Inbox/12023020234 罗佳庆.md",
     "01 CS/计算机操作系统/第一章 操作系统引论.md",
     "07 工具/Beta React Docs.md",
@@ -216,8 +219,6 @@
     "07 工具/windows配置.md",
     "Inbox/未命名.canvas",
     "Inbox/12023020234 设计模式考试题.md",
-    "Inbox/ＴｏＤｏ.md",
-    "2022-12-20.md",
-    "HTTP权威指南（中文版）.pdf"
+    "Inbox/ＴｏＤｏ.md"
   ]
 }
